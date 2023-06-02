@@ -1,0 +1,209 @@
+.price-list-kksa {
+    width: 100%;
+    background: rgb(246, 246, 246);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 4;
+  }
+  .price-list-kksa::after {
+    position: absolute;
+    content: "";
+    background-image: url(..//image/pricelist/Obszar-roboczy-382-ky1j6692.svg);
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 450px;
+    top: 0;
+    left: 0;
+    opacity: 0.4;
+    z-index: 0;
+  }
+  @media (max-width: 991.98px) {
+    .price-list-kksa::after {
+      width: 300px;
+    }
+  }
+  .price-list-kksa::before {
+    position: absolute;
+    content: "";
+    background-image: url(../image/pricelist/ciastko-ky1jcxam.svg);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    bottom: 0;
+    left: 0px;
+    opacity: 0.4;
+    z-index: 0;
+  }
+  .price-list-kksa .price-list-content {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+  }
+  .price-list-kksa .price-list-content::before {
+    position: absolute;
+    content: "";
+    background-image: url(../image/pricelist/kawa-ky1j5ygb.svg);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 450px;
+    top: 40%;
+    right: 0;
+    opacity: 0.4;
+    z-index: 0;
+  }
+  .price-list-kksa .price-list-content .price-list-box-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .price-list-kksa .price-list-content .price-list-box-top .price-list-box-image img {
+    width: 120px;
+    height: 30px;
+  }
+  .price-list-kksa .price-list-content .price-list-box-top .price-list-box-subtitle {
+    padding: 10px 0;
+  }
+  .price-list-kksa .price-list-content .price-list-box-top .price-list-box-subtitle h4 {
+    color: #c7a17a;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  .price-list-kksa .price-list-content .price-list-box-top .price-list-box-title {
+    padding-bottom: 30px;
+  }
+  .price-list-kksa .price-list-content .price-list-box-top .price-list-box-title h3 {
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 400;
+  }
+  .price-list-kksa .price-list-content .price-list-box-top .price-list-box-text {
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .price-list-kksa .price-list-content .price-list-box-top .price-list-box-text p {
+    font-size: 16px;
+    line-height: 19px;
+    width: 80%;
+  }
+  .price-list-kksa .price-list-content .price-list-box-all-down {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .price-list-kksa .price-list-content .price-list-box-all-down .box-price-all {
+    display: flex;
+    align-items: center;
+    width: calc(50% - 10px);
+
+  }
+  @media (max-width: 991.98px) {
+    .price-list-kksa .price-list-content .price-list-box-all-down .box-price-all {
+      width: 100%;
+    }
+  }
+  .price-list-kksa .price-list-content .price-list-box-all-down .box-price-all .box-price-img img {
+    width: 100px;
+    height: 100px;
+  }
+  @media (max-width: 767.98px) {
+    .price-list-kksa .price-list-content .price-list-box-all-down .box-price-all .box-price-img img {
+      width: 70px;
+      height: 70px;
+    }
+  }
+  .price-list-kksa .price-list-content .price-list-box-all-down .box-price-all .box-price {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    width: 100%;
+  }
+  @media (max-width: 767.98px) {
+    .price-list-kksa .price-list-content .price-list-box-all-down .box-price-all .box-price {
+      padding-left: 15px;
+    }
+  }
+  .price-list-kksa .price-list-content .price-list-box-all-down .box-price-all .box-price-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+  .price-list-kksa .price-list-content .price-list-box-all-down .box-price-all .box-price-up .box-price-title {
+    padding-bottom: 10px;
+  }
+  .price-list-kksa .price-list-content .price-list-box-all-down .box-price-all .box-price-up .box-price-title h4 {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+  @media (max-width: 767.98px) {
+    .price-list-kksa .price-list-content .price-list-box-all-down .box-price-all .box-price-up .box-price-title h4 {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+  .price-list-kksa .price-list-content .price-list-box-all-down .box-price-all .box-price-up .price {
+    padding-right: 20px;
+  }
+  .price-list-kksa .price-list-content .price-list-box-all-down .box-price-all .box-price-up .price span {
+    font-size: 22px;
+    line-height: 26px;
+    color: #c7a17a;
+  }
+  @media (max-width: 767.98px) {
+    .price-list-kksa .price-list-content .price-list-box-all-down .box-price-all .box-price-up .price span {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+  .price-list-kksa .price-list-content .price-list-box-all-down .box-price-all .box-price-down {
+    padding-top: 10px;
+  }
+  .price-list-kksa .price-list-content .price-list-box-all-down .box-price-all .box-price-down p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .price-list-kksa .box-price-button {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .price-list-kksa .box-price-button a {
+    color: #c7a17a;
+    text-decoration: none;
+    padding: 15px 75px;
+    border: 2px solid #c7a17a;
+    border-radius: 10px;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  @media (max-width: 991.98px) {
+    .price-list-kksa .box-price-button a {
+      padding: 15px 50px;
+    }
+  }
+  .price-list-kksa .box-price-button a:hover {
+    background-color: #c7a17a;
+    color: #fff;
+  }
+  
+  .price-list-box-top-all{
+    display: flex;
+  }
+
+  hr{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+  }
+
+  @media (max-width: 767.98px) {
+    .price-list-box-top-all {
+    flex-direction: column;
+    }
+  }
